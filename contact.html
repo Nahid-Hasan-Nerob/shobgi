@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Harvest Haven</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">Harvest<span>Haven</span></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>Get in touch with our team to learn more about our services and products</p>
+      </div>
+    </section>
+
+    <section class="contact-info">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="icon"><img class="location" src="image/location.png" width="50px" alt=""></div>
+            <h3>Visit Us</h3>
+            <p>123 Farm Road</p>
+            <p>Bogura, CA 95462</p>
+            <p>Bangladesh</p>
+          </div>
+          <div class="contact-card">
+            <div class="icon"><img class="location" src="image/phone.png" width="50px" alt=""></div>
+            <h3>Call Us</h3>
+            <p>Phone: (+880) 123-456789</p>
+            <p>Fax: (+880) 123-4568</p>
+            <p>Hours: Mon-Fri, 8am-5pm</p>
+          </div>
+          <div class="contact-card">
+            <div class="icon"><img class="location" src="image/mail.png" width="50px" alt=""></div>
+            <h3>Email Us</h3>
+            <p>General: info@harvesthaven.com</p>
+            <p>Support: support@harvesthaven.com</p>
+            <p>Sales: sales@harvesthaven.com</p>
+          </div>
+          <div class="contact-card">
+            <div class="icon"><img class="location" src="image/follow.png" width="50px" alt=""></div>
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#" class="social-link">Facebook</a>
+              <a href="#" class="social-link">Instagram</a>
+              <a href="#" class="social-link">Twitter</a>
+              <a href="#" class="social-link">YouTube</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form-section">
+      <div class="container">
+        <div class="form-map-container">
+          <div class="contact-form-container">
+            <h2 class="section-title">Send Us a Message</h2>
+            <form class="contact-form" action="#" method="POST">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number (optional)">
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                  <option value="" disabled selected>Select a subject</option>
+                  <option value="general">General Inquiry</option>
+                  <option value="services">Services Information</option>
+                  <option value="products">Product Information</option>
+                  <option value="partnership">Partnership Opportunities</option>
+                  <option value="support">Support</option>
+                </select>
+              </div>
+              <div class="form-group full-width">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+              </div>
+              <div class="form-group checkbox-group">
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+                <label for="newsletter">Subscribe to our newsletter for updates on sustainable farming practices and special offers.</label>
+              </div>
+              <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+          </div>
+          <div class="map-container">
+            <div class="map-placeholder">
+              <img src="image/capsicum.jpg" alt="Farm location">
+              <div class="map-overlay">
+                <h3>Harvest Haven Farm</h3>
+                <p>123 Farm Road, Bogura, CA 95462</p>
+                <a href="#" class="btn secondary-btn">Get Directions</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-container">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>How can I purchase your products?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Our products are available through our CSA program, at local farmers markets, and select retail partners. Contact us for specific availability information.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What is your CSA program?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Our Community Supported Agriculture (CSA) program provides members with a weekly box of seasonal produce. Members pay upfront for a season and receive fresh, organic produce throughout the growing period.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Do you offer farm tours?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>Yes, we offer guided farm tours by appointment. Tours are available for individuals, families, schools, and groups. Please contact us to schedule a tour.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What sustainable practices do you employ?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>We use various sustainable practices including crop rotation, cover cropping, integrated pest management, water conservation, composting, and renewable energy sources.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>How can I get involved with your farm?</h3>
+              <span class="faq-toggle">+</span>
+            </div>
+            <div class="faq-answer">
+              <p>There are several ways to get involved: join our CSA program, volunteer on the farm, attend our workshops and events, or partner with us for educational initiatives.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>Subscribe to Our Newsletter</h2>
+          <p>Stay updated with our latest news, seasonal offerings, and sustainable farming tips.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email address" required>
+            <button type="submit" class="btn primary-btn">Subscribe</button>
+          </form>
+          <p class="privacy-notice">We respect your privacy and will never share your information.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <a href="index.html">Harvest<span>Haven</span></a>
+          </div>
+          <p>Cultivating sustainable agricultural practices for a healthier planet and community.</p>
+          <div class="social-links">
+            <a href="#" class="social-link">FB</a>
+            <a href="#" class="social-link">IG</a>
+            <a href="#" class="social-link">TW</a>
+            <a href="#" class="social-link">YT</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Organic Farming</a></li>
+            <li><a href="services.html">Agricultural Consulting</a></li>
+            <li><a href="services.html">Farm Management</a></li>
+            <li><a href="services.html">Crop Protection</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <address>
+            <p>123 Farm Road, Bogura</p>
+            <p>CA 95462, Bangladesh</p>
+            <p>Email: info@harvesthaven.com</p>
+            <p>Phone: (+880) 123-456789</p>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Harvest Haven desin by Nahid Hasan. All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // FAQ Toggle
+    const faqItems = document.querySelectorAll('.faq-question');
+    
+    faqItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const parent = item.parentNode;
+        parent.classList.toggle('active');
+        
+        const toggle = item.querySelector('.faq-toggle');
+        toggle.textContent = parent.classList.contains('active') ? '−' : '+';
+      });
+    });
+
+    // Form validation visual feedback
+    const formInputs = document.querySelectorAll('.contact-form input, .contact-form textarea, .contact-form select');
+    
+    formInputs.forEach(input => {
+      input.addEventListener('blur', () => {
+        if (input.value.trim() !== '') {
+          input.classList.add('valid');
+        } else {
+          input.classList.remove('valid');
+        }
+      });
+    });
+
+    // Mobile navigation toggle
+    document.querySelector('.mobile-nav-toggle').addEventListener('click', function() {
+      document.querySelector('nav').classList.toggle('active');
+      this.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
